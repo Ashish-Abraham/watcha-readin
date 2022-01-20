@@ -1,5 +1,5 @@
 import gradio as gr
-from tensorflow.keras.models import load_model
+#from tensorflow.keras.models import load_model
 
 def classify(text):
     model= load_model('my_model.h5')
@@ -15,7 +15,7 @@ iface= gr.Interface(
     inputs=[gr.inputs.Textbox(lines=5, label="Context", placeholder="Type a sentence or paragraph here.")],
     outputs=[gr.outputs.Textbox(label="Prediction")],
     fn=classify, 
-    title='watch-ya-watchin',
+    title='WATCHA-READIN',
     theme='dark-peach'       
 )
 
