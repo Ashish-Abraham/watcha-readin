@@ -1,2 +1,16 @@
-# watcha-readin
-Give me some content from the novel you are planning read this weekend and get simple insights. Sentiment analysis model  built on TensorFlow.
+# WATCHA-READIN
+![Image](https://magazine.college.unc.edu/wp-content/uploads/sites/1025/2019/10/bookcase-books-bookshelves-159711.jpg)
+
+Reading something this weekend? This can help you select the best one. Just copy a paragraph from your novel, paste it here and see what it says. Sentiment Analysis model using TensorFlow trained on IMDB dataset.
+## Neural Network
+* Bidirectional LSTM
+* Framework : TensorFlow (2.7.0)
+* Validation Accuracy : 80.2%
+* Dataset : https://ai.stanford.edu/~amaas/data/sentiment/ <br><br>
+![Image](https://github.com/Ashish-Abraham/watcha-readin/blob/main/lstm_architecture.png)
+
+## How to use:
+* Clone repository to local machine and run ui.py.<br>
+![Image](https://github.com/Ashish-Abraham/watcha-readin/blob/main/screenshot.png)<br>
+
+## *Thanks for reading the Documentation. Open to suggestions if any.*
