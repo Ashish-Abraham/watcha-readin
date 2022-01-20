@@ -11,6 +11,6 @@ Reading something this weekend? This can help you select the best one. Just copy
 
 ## How to use:
 * Clone repository to local machine and run ui.py.<br>
-![Image](https://github.com/Ashish-Abraham/watcha-readin/blob/main/screenshot.png)<br>
+![Image](https://github.com/Ashish-Abraham/watcha-readin/blob/main/screenshot1.png)<br>
 
 ## *Thanks for reading the Documentation. Open to suggestions if any.*
