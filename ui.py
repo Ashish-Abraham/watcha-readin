@@ -5,11 +5,11 @@ def classify(text):
     model= load_model('my_model.h5')
     prediction = model.predict(text)
     if(prediction<=0.4):
-        return "Looks like you are reading negative content"
+        return "Looks like you are reading negative content. Some words sound negative in context."
     elif(prediction>0.4 and prediction<=0.6):
-        return "Sounds Neutral"
+        return "Sounds Neutral. Speaks generally and not biased towards any value."
     else :       
-        return "Sounds Postive."
+        return "Sounds Positive. Giving a good impression to start reading this stuff. "
 
 iface= gr.Interface(
     inputs=[gr.inputs.Textbox(lines=5, label="Context", placeholder="Type a sentence or paragraph here.")],
@@ -19,4 +19,4 @@ iface= gr.Interface(
     theme='dark-peach'       
 )
 
-iface.launch()
+iface.launch(share=True)
