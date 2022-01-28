@@ -7,16 +7,17 @@ import nltk
 
 def classify(text):
     nltk.download('stopwords')
-    model= load_model('nlp1.h5')
+    model= load_model('nlp3.h5')
     X= prepro.preprocess(text)
     prediction = model.predict(np.array(X))
     # return prediction
     if(prediction<=0.4):
-        return "Sounds Positive. Giving a good impression to start reading this stuff. "    
+        return "Looks like you are reading negative content. Some words sound negative in context."
     elif(prediction>0.4 and prediction<=0.6):
         return "Sounds Neutral. Speaks generally and not biased towards any value."
     else :       
-        return "Looks like you are reading negative content. Some words sound negative in context."
+        return "Sounds Positive. Giving a good impression to start reading this stuff. "
+
 
 iface= gr.Interface(
     inputs=[gr.inputs.Textbox(lines=5, label="Context", placeholder="Type a sentence or paragraph here.")],
