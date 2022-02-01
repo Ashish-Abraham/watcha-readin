@@ -15,4 +15,3 @@ Reading something this weekend? This can help you select the best one. Just copy
 ![Image](https://github.com/Ashish-Abraham/watcha-readin/blob/main/screenshot1.png)<br>
 
 ## *Thanks for reading the Documentation. Open to suggestions if any.*
->>>>>>> ef0f6d1a7d3e0506e8e4d7c89a5597b717706ee7
