@@ -1,7 +1,7 @@
 # WATCHA-READIN
 ![Image](https://magazine.college.unc.edu/wp-content/uploads/sites/1025/2019/10/bookcase-books-bookshelves-159711.jpg)
 
-Reading something this weekend? This can help you select the best one. Just copy a paragraph from your novel, paste it here and see what it says. Sentiment Analysis model using TensorFlow trained on IMDB dataset.
+Reading something this weekend? Just copy a paragraph from the stuff you are reading, paste it here and see what it says. Sentiment Analysis model using TensorFlow trained on IMDB dataset.
 ## Neural Network
 * Bidirectional LSTM
 * Framework : TensorFlow (2.7.0)
