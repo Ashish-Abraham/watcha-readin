@@ -14,4 +14,5 @@ Reading something this weekend? Just copy a paragraph from the stuff you are rea
 * Try demo in hugging face spaces: https://huggingface.co/spaces/ashishabraham22/WATCHA-READIN<br>
 ![Image](https://github.com/Ashish-Abraham/watcha-readin/blob/main/screenshot1.png)<br>
 
-## *Thanks for reading the Documentation. Open to suggestions if any.*
+## To Do:
+Improve the model to achieve better accuracy
